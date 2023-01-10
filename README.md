@@ -7,16 +7,16 @@ Extracted profiles are used to compose Fig. S2 in [Schneider et al. (2022)](http
 Determine the signal onset time for each x-position along the muscle fiber. From the propagation along the fiber, the Calcium velocity is determined.
 
 ### Input
-Video of fluorescence intensity, recorded at ~ 200 fps. Frames saved as series of .tif-files in each folder.
+Video of fluorescence intensity, recorded at ~ 200 fps. Frames are saved as series of .tif-files in each folder.
 
 ### Output
 Analysis in notebook produces following plots indicating the color-coded signal propagation and corresponding fit to determine the propagation velocity:
-![raw_signalcomparison](/figs/raw_signalcomparison.pdf)
-![pospol_propagation](/figs/pospol_propagation.pdf)
-![pospol_fit](/figs/pospol_fit.pdf)
-![negpol_propagation](/figs/negpol_propagation.pdf)
-![negpol_fit](/figs/negpol_fit.pdf)
+![raw_signalcomparison](/figs/raw_signalcomparison.png)
+![pospol_propagation](/figs/pospol_propagation.png)
+![pospol_fit](/figs/pospol_fit.png)
+![negpol_propagation](/figs/negpol_propagation.png)
+![negpol_fit](/figs/negpol_fit.png)
 
 
 ## Citation
-Please cite **O. Schneider, A. Moruzzi, S. Fuchs, A. Grobel, and P. Loskill, [Fusing spheroids to aligned μ-tissues in a heart-on-chip featuring oxygen sensing and electrical pacing capabilities](https://doi.org/10.1016/j.mtbio.2022.100280), Materials Today Bio 15, 100280 (2022)** if you reuse some of the code for your own analysis.
+Please cite **O. Schneider, A. Moruzzi, S. Fuchs, A. Grobel, H. S. Schulze, T. Mayr, and P. Loskill, [Fusing spheroids to aligned μ-tissues in a heart-on-chip featuring oxygen sensing and electrical pacing capabilities](https://doi.org/10.1016/j.mtbio.2022.100280), Materials Today Bio 15, 100280 (2022)** if you reuse some of the code for your own analysis.
